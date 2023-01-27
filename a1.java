@@ -28,8 +28,7 @@ class Billionaire extends RegularPerson {
     }
 
     public boolean isInDanger() {
-        // some logic to check if the billionaire is in danger
-        // for example, 50% chance of danger
+
         return Math.random() < 0.5;
     }
 
@@ -50,7 +49,7 @@ class Enemy {
     }
 
     public void attack(Billionaire billionaire) {
-        // some logic for the attack
+
     }
 }
 
@@ -62,7 +61,7 @@ class IronMan {
     }
 
     public void attack(Enemy enemy) {
-        // some logic for the attack
+
     }
 
     public void printNameOfOwner() {
